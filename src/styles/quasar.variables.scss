@@ -1,0 +1,29 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+
+$primary   : #027BE3;
+$secondary : #26A69A;
+$accent    : #9C27B0;
+
+$dark      : #1D1D1D;
+
+$positive  : #21BA45;
+$negative  : #C10015;
+$info      : #31CCEC;
+$warning   : #F2C037;
+$body-font-size: 14px;
+
+.fz-xl {
+  font-size: $body-font-size * 1.714; //24px
+}
+.fz-larger {
+  font-size: $body-font-size * 1.285; //18px
+}
+.fz-normal {
+  font-size: $body-font-size * 1.142; //16px
+}
+.fz-sml {
+  font-size: $body-font-size; //14px
+}
+
+@import '~quasar-variables-styl'
